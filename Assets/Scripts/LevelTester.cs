@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class LevelTester : MonoBehaviour
 {
-    [SerializeField] DialogueView _dialogueView;
-    [SerializeField] DialogueData _dialogue01;
-    [SerializeField] DialogueData _dialogue02;
-    [SerializeField] DialogueData _dialogue03;
+    [SerializeField] DialogueView _dialogueView = null;
+    [SerializeField] DialogueData _dialogue01 = null;
+    [SerializeField] DialogueData _dialogue02 = null;
+    [SerializeField] DialogueData _dialogue03 = null;
 
     bool toggleUI = true;
 
